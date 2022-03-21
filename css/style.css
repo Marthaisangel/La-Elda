@@ -1,29 +1,78 @@
+/* colores tema oscuro #090c15
+                    #151b2b
+
+
+colores tema claro: amarillo: #D6A80C
+                    claro: #F8F3CA
+                    oscuro: #DFDDE3 */
+
+
+
 /* =============GENERALES============= */
 body{
-    background-color: #090c15;
+    background-color: #DFDDE3;
 }
 h1,h2,h3,h4,p,a{
-    color: azure;
+    color: #090c15;
 }
 a{
     text-decoration: none;
 }
 input{
-    background-color: #090c15 !important;
-    color: azure !important;
-    border-color:#090c15 !important;
+    background-color: #DFDDE3 !important;
+    color: #090c15 !important;
+    border-color:#DFDDE3 !important;
 }
 .sec-izq{
-    background-color: #151b2b;
+    background-color: white;
+}
+svg{
+    stroke: #090c15;
+}
+button{
+    background-color: #50adea !important;
+    border-color: #50adea !important;
+}
+.img-index{
+    display: flex;
+    justify-content: center;
+    padding-top: 10rem;
 }
 
-
-
-
 /* =============INICIO============= */
+.color-cabecera{
+    background-color: #007e99 !important;
+    color: white !important;
+
+}
+.color-h1{
+    padding-top: 5rem;
+    color: white;
+    
+}
+.color-h1:hover{
+    color:#DFDDE3;
+}
+.logo-fin{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    
+}
+.tamaño-cerrar{
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.tamaño{
+    width: 7rem;
+}
 .btn-primary2{
-    background-color: #0074d9 !important;
-    border-color: #0074d9 !important;
+    background-color: #50adea !important;
+    border-color: #50adea !important;
+    color: white !important;
 }
 
 .centrado{
@@ -33,12 +82,12 @@ input{
 }
 form{
     margin-top: 3rem;
-    background-color: #151b2b;
+    background-color: white;
     padding: 2rem 2rem;
     border-radius: 1rem;
 }
 label{
-    color: azure;
+    color: #090c15;
 }
 .centrar-h4{
     text-align: center;
@@ -62,11 +111,11 @@ label{
     align-items: center;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    background-color: #090c15;
+    background-color: #DFDDE3;
 }
 .centrar{
     text-align: center;
-    background-color: #151b2b;
+    background-color: white;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
@@ -75,16 +124,16 @@ label{
     padding-top: 2rem;
     padding-bottom: 2rem;
     text-align: center;
-    background-color: #151b2b;
+    background-color: white;
 }
 .color-focus{
     padding-top: 3rem;
     padding-bottom: 3rem;
     text-align: center;
-    background-color: #090c15;
+    background-color: #DFDDE3;
 }
 .espacios:hover{
-    background-color: #090c15;
+    background-color: #DFDDE3;
 }
 
 
@@ -168,18 +217,18 @@ label{
     font-size: 1.5rem;
 }
 .bg-color{
-    background-color: #151b2b;
+    background-color: white;
     border-radius: 1rem;
 }
 .list-group-item{
     background-color: #090c15;
-    border-color: #151b2b;
+    border-color: white;
     
 }
 
 td, th{
-    color:gainsboro;  
-    border-color: #090c15 !important;
+    color:#090c15;  
+    border-color: #DFDDE3 !important;
 }
 
 .tot-comp{
