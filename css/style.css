@@ -1,0 +1,196 @@
+/* =============GENERALES============= */
+body{
+    background-color: #090c15;
+}
+h1,h2,h3,h4,p,a{
+    color: azure;
+}
+a{
+    text-decoration: none;
+}
+input{
+    background-color: #090c15 !important;
+    color: azure !important;
+    border-color:#090c15 !important;
+}
+.sec-izq{
+    background-color: #151b2b;
+}
+
+
+
+
+/* =============INICIO============= */
+.btn-primary2{
+    background-color: #0074d9 !important;
+    border-color: #0074d9 !important;
+}
+
+.centrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    margin-top: 3rem;
+    background-color: #151b2b;
+    padding: 2rem 2rem;
+    border-radius: 1rem;
+}
+label{
+    color: azure;
+}
+.centrar-h4{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.centrar-inicio{
+    text-align: center;
+    margin-top: 10rem;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+}
+
+
+
+/* =============SECCIONES============= */
+.posicion-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #090c15;
+}
+.centrar{
+    text-align: center;
+    background-color: #151b2b;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.espacios{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    background-color: #151b2b;
+}
+.color-focus{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    background-color: #090c15;
+}
+.espacios:hover{
+    background-color: #090c15;
+}
+
+
+/* =============CONTENIDO (Inventario) ============= */
+
+
+
+
+
+
+
+
+/* =============CONTENIDO (Proveedores) ============= */
+
+
+
+
+
+
+
+
+/* =============CONTENIDO (Clientes) ============= */
+
+
+
+
+
+
+
+
+/* =============CONTENIDO (Ventas) ============= */
+
+.fuente-total{
+    font-size: 4rem;
+}
+.hr-venta{
+    background-color:black;
+    height: 2px !important;
+}
+.flex-form{
+    display: flex;
+    justify-content:space-evenly;
+}
+.margen-input-venta{
+    width: 20%;
+}
+.flex-imput{
+    display: flex;
+    justify-content: center;
+}
+.fuente-devolver{
+    font-size: 2rem;
+}
+
+
+
+.grid-ventas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+
+
+/* =============CONTENIDO (Compras) ============= */
+.grid-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+.centrar-compra{
+    text-align: center;
+    padding-top: 10rem;
+}
+.espacio-icono{
+    margin-right: 4rem;
+}
+.total-espacio{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+.bg-color{
+    background-color: #151b2b;
+    border-radius: 1rem;
+}
+.list-group-item{
+    background-color: #090c15;
+    border-color: #151b2b;
+    
+}
+
+td, th{
+    color:gainsboro;  
+    border-color: #090c15 !important;
+}
+
+.tot-comp{
+    padding-bottom: 1rem;
+}
+
+
+
+/* =============CONTENIDO (Informes) ============= */
+
+
+
+
+
